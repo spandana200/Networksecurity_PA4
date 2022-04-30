@@ -44,8 +44,6 @@ def main():
 
 ###   PRNG FUNCTIONS   ###
 
-
-
 def generate_lcg( num_iterations ):
     """
     LCG - generates as many random numbers as requested by user, using a Linear Congruential Generator
@@ -77,7 +75,7 @@ def generate_lcg( num_iterations ):
         counter = counter+1
 
     outFile.close()
-    print("Successfully stored " + str(num_iterations) + " random numbers in file named: 'lgc_output.txt'.")
+    print("Successfully stored " + str(num_iterations) + " random numbers in file named: 'lcg_output.txt'.")
 
 
 def lfsr(num_iterations):

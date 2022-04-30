@@ -4,9 +4,8 @@ import numpy as np
 
 """
 PRNGs implemented in this file:
-1. Mersenne Twister (PyRand) - python library function
-2. Linear Congruential Generator (LCG)
-3. Linear Feedback Shift register (LFSR)
+1. Linear Congruential Generator (LCG)
+2. Linear Feedback Shift register (LFSR)
 Tests performed:
 1. Chi-squared for Uniformity
 2. Kolmogorov-Smirnov Test for Uniformity

@@ -67,7 +67,7 @@ def generate_lcg( num_iterations ):
 
     #Perfom number of iterations requested by user
     while counter < num_iterations:
-        x_value = (a * x_value + c) % m
+        x_value = (((a%m) * (x_value%m)%m) + c%m) % m
 
         #Obtain each number in U[0,1) by diving X_i by m
         writeValue = str(x_value/m)

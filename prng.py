@@ -40,7 +40,7 @@ def main():
 #  1.  LCG Implementation(seed=123456789)
 #         o Where:  a=101427; c=321, m=(2**16)
 #         o Obtain each number in U[0,1) by diving X_i by m
-#  2. Liner-feedback shift register in python   
+#  2. Linear-feedback shift register in python   
 
 
 ###   PRNG FUNCTIONS   ###
